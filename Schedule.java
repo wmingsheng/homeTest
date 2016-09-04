@@ -17,6 +17,7 @@ public class Schedule {
 				}
 			}
 			,2*10000);
-		System.out.println(System.currentTimeMills() - start);
+
+		System.out.println("run time: " + System.currentTimeMills() - start);
 	}
 }
